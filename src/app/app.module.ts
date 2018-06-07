@@ -11,6 +11,12 @@ import { ContibutorsPage } from '../pages/contibutors/contibutors';
 import { TeamPage } from '../pages/team/team';
 import { PrivacypolicyPage } from '../pages/privacypolicy/privacypolicy';
 import { EditProfilePage } from '../pages/edit-profile/edit-profile';
+import { TermAndConditionPage } from '../pages/term-and-condition/term-and-condition';
+import { InviteFriendsPage } from '../pages/invite-friends/invite-friends';
+import { HeartcardActivatePage } from '../pages/heartcard-activate/heartcard-activate';
+import { HeartcardLockPage } from '../pages/heartcard-lock/heartcard-lock';
+import { HeartcardUnlockPage } from '../pages/heartcard-unlock/heartcard-unlock';
+import { TransfertoBankPage } from '../pages/transferto-bank/transferto-bank';
 
 
 @NgModule({
@@ -20,7 +26,14 @@ import { EditProfilePage } from '../pages/edit-profile/edit-profile';
     ContibutorsPage,
     TeamPage,
     PrivacypolicyPage,
-    EditProfilePage
+    EditProfilePage,
+    TermAndConditionPage,
+    InviteFriendsPage,
+    ProfilePage,
+    HeartcardActivatePage,
+    HeartcardLockPage,
+    HeartcardUnlockPage,
+    TransfertoBankPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +46,14 @@ import { EditProfilePage } from '../pages/edit-profile/edit-profile';
     ContibutorsPage,
     TeamPage,
     PrivacypolicyPage,
-    EditProfilePage
+    EditProfilePage,
+    TermAndConditionPage,
+    InviteFriendsPage,
+    ProfilePage,
+    HeartcardActivatePage,
+    HeartcardLockPage,
+    HeartcardUnlockPage,
+    TransfertoBankPage
 
   ],
   providers: [

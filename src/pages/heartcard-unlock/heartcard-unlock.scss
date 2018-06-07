@@ -1,0 +1,28 @@
+page-heartcard-unlock {
+    .my_heart_card_block{background: #fff;}
+    .full_size_button{border-radius: 5px;
+        height: 3.5em; color: #fff;background: #5ba509;  margin-top: 15px;
+    }
+    .card-background-page {
+         ion-card {
+            position: relative; text-align: center;
+            width:100%!important;  margin: 0px!important;
+        }
+      
+        .card-title {
+          position: absolute;
+          top: 36%; font-size: 2.0em; width: 100%;
+          font-weight: normal; color: #aa0432;
+        }
+      
+        .card-subtitle {
+          font-size: 1.0em;
+          position: absolute; top: 52%;
+          width: 100%; color: #fff;
+        }
+      
+      }
+      p.footer_title{display: inline-block; text-align: center; color:#aa0432;}
+      p.footer_title a{color:#aa0432; font-weight: 700;}
+      .footer_new_menu{text-align: center; letter-spacing: 1px;}
+}
